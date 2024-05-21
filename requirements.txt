@@ -1,0 +1,9 @@
+streamlit
+sec_edgar_downloader
+transformers
+nltk
+torch
+beautifulsoup4
+lxml
+matplotlib
+numpy
