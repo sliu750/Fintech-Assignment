@@ -50,3 +50,8 @@ The goal is to show users what each firm's management thinks of the firm's perfo
     - **IDE**: VS Code
     - **Libraries**: sec_edgar_downloader, transformers, nltk, torch, beautifulsoup4, lxml, matplotlib, numpy, Streamlit
 
+  - **Installation (to run the app LOCALLY)**:
+    1. Clone the repository: git clone https://github.com/sliu750/Fintech-Assignment.git
+    2. Install the required packages: pip install -r requirements.txt
+    3. Now you can run the application locally.
+
