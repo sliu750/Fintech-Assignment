@@ -5,14 +5,14 @@ The goal is to show users what each firm's management thinks of the firm's perfo
 
 **Overview:**
 
-  **Task 1: Download Data from the SEC-EDGAR**
+  - **Task 1: Download Data from the SEC-EDGAR**
 
     - **Downloading Filings**
   
       - Utilizes Python's sec_edgar_downloader package to download 10-K filings
       - Users can select any of the five Big Tech companies to download filings.
 
-  **Task 2: Text Analysis**
+  - **Task 2: Text Analysis**
 
     - **Natural Language Processing**
   
@@ -31,7 +31,7 @@ The goal is to show users what each firm's management thinks of the firm's perfo
       - Provides users with a holistic view of the firm's performance from the management's perspective
       - Helps users understand the management's outlook and make informed decisions regarding investments or purchasing products from the company
 
-  **Task 3: Construct and Deploy Simple App**
+  - **Task 3: Construct and Deploy Simple App**
     
     - **Local Deployment**
       - Run "streamlit run streamlit_app.py" in terminal.
