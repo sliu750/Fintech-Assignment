@@ -52,7 +52,7 @@ The goal is to show users what each firm's management thinks of the firm's perfo
 
   - **Installation (to run the app LOCALLY)**:
 
-    1. Clone the repository: git clone https://github.com/sliu750/Fintech-Assignment.git
-    2. Install the required packages: pip install -r requirements.txt
-    3. Now you can run the application locally.
+    - Clone the repository: git clone https://github.com/sliu750/Fintech-Assignment.git
+    - Install the required packages: pip install -r requirements.txt
+    - Now you can run the application locally.
 
