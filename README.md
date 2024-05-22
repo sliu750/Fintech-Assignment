@@ -31,13 +31,13 @@ The goal is to show users what each firm's management thinks of the firm's perfo
     - Provides users with a holistic view of the firm's performance from the management's perspective
     - Helps users understand the management's outlook and make informed decisions regarding investments or purchasing products from the company
 
-  - **Task 3: Construct and Deploy Simple App**
+- **Task 3: Construct and Deploy Simple App**
     
-    - **Local Deployment**
-      - Run "streamlit run streamlit_app.py" in terminal.'
+  - **Local Deployment**
+    - Run "streamlit run streamlit_app.py" in terminal.
 
-    - **Web Deployment**
-      - Access at [https://fintech-assignment.streamlit.app/](https://fintech-assignment.streamlit.app/)
+  - **Web Deployment**
+    - Access at [https://fintech-assignment.streamlit.app/](https://fintech-assignment.streamlit.app/)
 
 Then, I performed natural language processing and analysis on the files using Python's transformers (specifically the Autotokenizer and AutoModelForSequenceClassification based on the ProsusAI/Finbert model, which is specially trained to analyze sentiments in financial literature)
 and nltk (Natural Language Toolkit) packages. Through these large language models (LLMs), I extracted the key information from the filings and classified the sentences in the management's discussion as positive, negative, or neutral. 
