@@ -5,12 +5,25 @@ The goal is to show users what each firm's management thinks of the firm's perfo
 
 **Overview:**
 
-**1. Downloading Filings:**
+- **Task 1: Download Data from the SEC-EDGAR**
 
-  - Utilizes Python's sec_edgar_downloader package to download 10-K filings.
-  - Users can select any of the five Big Tech companies to download filings.
+  - **Downloading Filings**
 
+    - Utilizes Python's sec_edgar_downloader package to download 10-K filings
+    - Users can select any of the five Big Tech companies to download filings.
 
+- **Task 2: Text Analysis**
+
+  - **Natural Language Processing**
+
+    - Uses Python's transformers package, specifically the AutoTokenizer and AutoModelForSequenceClassification based on the ProsusAI/Finbert model, designed for financial sentiment analysis
+    - Employs nltk (Natural Language Toolkit) for additional NLP tasks, such as tokenizing text into sentences
+    - Extracts key information from the filings and classifies sentences in the management's discussion as positive, negative, or neutral.
+
+  - **Visualization**
+
+    - Calculates the ratio of positive to total strongly sentimental sentences for each year and visually displays this trend across the years
+    - Uses linear regression to predict trends in management's reviews for the next five years
 
 Then, I performed natural language processing and analysis on the files using Python's transformers (specifically the Autotokenizer and AutoModelForSequenceClassification based on the ProsusAI/Finbert model, which is specially trained to analyze sentiments in financial literature)
 and nltk (Natural Language Toolkit) packages. Through these large language models (LLMs), I extracted the key information from the filings and classified the sentences in the management's discussion as positive, negative, or neutral. 
