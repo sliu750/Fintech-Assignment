@@ -7,6 +7,7 @@ First, to download the filings, I used Python's sec_edgar_downloader package. Us
 
 Then, I performed natural language processing and analysis on the files using Python's transformers (specifically the Autotokenizer and AutoModelForSequenceClassification based on the ProsusAI/Finbert model, which is specially designed to analyze sentiments in financial literature)
 and nltk (Natural Language Toolkit) packages. Through these large language models (LLMs), I extracted the key information from the filings and classified the sentences in the management's discussion as positive, negative, or neutral. 
+
 I calculated the ratio of positive to total strongly sentimental sentences for each year and visually displayed this trend across the years.
 Additionally, I used linear regression to predict trends in management's reviews for the next five years.
 
