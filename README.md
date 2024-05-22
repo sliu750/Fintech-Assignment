@@ -5,7 +5,7 @@ The goal is to show users what each firm's management thinks of the firm's perfo
 
 **Overview:**
 
-- **1. Downloading Filings:**
+**1. Downloading Filings:**
 
   - Utilizes Python's sec_edgar_downloader package to download 10-K filings.
   - Users can select any of the five Big Tech companies to download filings.
