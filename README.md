@@ -36,7 +36,7 @@ The goal is to show users what each firm's management thinks of the firm's perfo
     - **Note**: The app may take about 10-15 minutes to run due to the large volume of text and the NLP/LLM models running in the backend.
     
     - **Local Deployment**
-      - Run the following command in terminal.
+      - Run the following command in terminal, in the Fintech-Assignment directory.
         ```bash
         streamlit run streamlit_app.py
   
