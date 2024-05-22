@@ -57,6 +57,8 @@ The goal is to show users what each firm's management thinks of the firm's perfo
     - Clone the repository:
       ```bash
       git clone https://github.com/sliu750/Fintech-Assignment.git
-    - Install the required packages: pip install -r requirements.txt
+    - Install the required packages:
+      ```bash
+      pip install -r requirements.txt
     - Now you can run the application locally.
 
