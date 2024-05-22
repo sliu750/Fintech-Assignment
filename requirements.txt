@@ -4,6 +4,7 @@ transformers
 nltk
 torch
 beautifulsoup4
+regex
 lxml
 matplotlib
 numpy
