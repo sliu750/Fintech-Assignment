@@ -3,9 +3,16 @@
 This project analyzes SEC-EDGAR 10-K filings for the five Big Tech companies (Amazon, Apple, Google, Meta, and Microsoft), focusing on extracting and presenting insights from the management's discussion and analysis of the firm's performance. 
 The goal is to show users what each firm's management thinks of the firm's performance, helping users gauge the company's future prospects and investment potential.
 
-First, to download the filings, I used Python's sec_edgar_downloader package. Users have the option of selecting any one of the five Big Tech companies to download filings of.
+**Overview:**
 
-Then, I performed natural language processing and analysis on the files using Python's transformers (specifically the Autotokenizer and AutoModelForSequenceClassification based on the ProsusAI/Finbert model, which is specially designed to analyze sentiments in financial literature)
+- **1. Downloading Filings:**
+
+  - Utilizes Python's sec_edgar_downloader package to download 10-K filings.
+  - Users can select any of the five Big Tech companies to download filings.
+
+
+
+Then, I performed natural language processing and analysis on the files using Python's transformers (specifically the Autotokenizer and AutoModelForSequenceClassification based on the ProsusAI/Finbert model, which is specially trained to analyze sentiments in financial literature)
 and nltk (Natural Language Toolkit) packages. Through these large language models (LLMs), I extracted the key information from the filings and classified the sentences in the management's discussion as positive, negative, or neutral. 
 
 I calculated the ratio of positive to total strongly sentimental sentences for each year and visually displayed this trend across the years.
@@ -20,6 +27,6 @@ I chose to use Streamlit because it is designed to construct and publish apps fo
 Note that the app will take about 10-15 minutes to run due to the large volume of text and the NLP/LLM models running in the backend.
 
 Tools, libraries, and frameworks used: 
-- Programming Language: Python
+- Programming Language: Python, CSS
 - IDE: VS Code
 - Libraries: sec_edgar_downloader, transformers, nltk, torch, beautifulsoup4, lxml, matplotlib, numpy, Streamlit
