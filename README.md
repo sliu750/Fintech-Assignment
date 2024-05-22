@@ -33,7 +33,7 @@ The goal is to show users what each firm's management thinks of the firm's perfo
 
   - **Task 3: Construct and Deploy Simple App**
 
-    - Note that the app may take about 10-15 minutes to run due to the large volume of text and the NLP/LLM models running in the backend.
+    - **Note**: The app may take about 10-15 minutes to run due to the large volume of text and the NLP/LLM models running in the backend.
     
     - **Local Deployment**
       - Run "streamlit run streamlit_app.py" (in the FinTech-Assignment directory) in terminal.
