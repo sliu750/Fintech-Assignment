@@ -62,6 +62,6 @@ The goal is to show users what each firm's management thinks of the firm's perfo
       pip install -r requirements.txt
     - Now you can run the application locally.
 
-  - **Video of Local Deployment**
+  - **Video of Local Deployment**:
     https://www.youtube.com/watch?v=q57IdgLte4w
 
