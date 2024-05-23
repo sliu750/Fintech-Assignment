@@ -52,7 +52,7 @@ The goal is to show users what each firm's management thinks of the firm's perfo
     - **IDE**: VS Code
     - **Libraries**: sec_edgar_downloader, transformers, nltk, torch, beautifulsoup4, lxml, matplotlib, numpy, Streamlit
 
-  - **Installation (to run the app LOCALLY)**:
+  - **Installation (to run the app LOCALLY)**
 
     - Clone the repository:
       ```bash
@@ -61,4 +61,7 @@ The goal is to show users what each firm's management thinks of the firm's perfo
       ```bash
       pip install -r requirements.txt
     - Now you can run the application locally.
+
+  - **Video of Local Deployment**
+    https://www.youtube.com/watch?v=q57IdgLte4w
 
